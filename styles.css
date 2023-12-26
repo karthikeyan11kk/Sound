@@ -1,0 +1,76 @@
+@font-face {
+  font-family: nature;
+  src: url(BeautyMountainsPersonalUse-od7z.ttf);
+}
+@font-face {
+  font-family: nature1;
+  src: url(Green\ House.otf);
+}
+body {
+  text-align: center;
+  background-image: url('nature.png');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+
+}
+h1 {
+  font-size: 3rem;
+  color: #FBF1D3;
+  letter-spacing: 2px;
+  text-shadow: 2px 0 #FBF1D3;
+}
+
+h2 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  color: #FBF1D3;
+  text-shadow: 1px 0 #FBF1D3;
+}
+
+.btn {
+  outline: none;
+  border: 5px solid  #5F8D4E;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  color: #5F8D4E;
+  font-weight: 650;
+  border-radius: 10px;
+  width: 60%;
+  max-width: 200px;
+  height: 15vw;
+  max-height: 150px;
+  margin: 20px;
+  background-color: white;
+}
+.btn:hover{
+  color: white;
+  outline: none;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+.pressed {
+  box-shadow: 0 3px 4px 0 #5F8D4E;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  .btn {
+    font-size: 1.2rem;
+    width: 80%;
+    max-width: none;
+    height: auto;
+    max-height: none;
+    margin: 10px;
+  }
+  body {
+    background-size: contain;
+  }
+}
